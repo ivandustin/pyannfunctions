@@ -1,6 +1,6 @@
 from jax.numpy import array, inf, array_equal, ones_like, sum
-from annfunctions import activation
 from jax import grad
+from annfunctions import activation
 
 
 def test():
