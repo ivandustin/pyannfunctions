@@ -1,4 +1,4 @@
-from annfunctions import optimizer
+from annfunctions import optimize
 
 
 def test():
@@ -6,5 +6,5 @@ def test():
     alpha = 2.0
     gradient = 3.0
     expected = -5.0
-    actual = optimizer(theta, gradient, alpha)
+    actual = optimize(theta, gradient, alpha)
     assert actual == expected

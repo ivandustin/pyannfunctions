@@ -1,6 +1,6 @@
-from .activation import activation
-from .optimizer import optimizer
+from .activate import activate
+from .optimize import optimize
 from .prune import prune
 from .loss import loss
 
-__all__ = ['activation', 'optimizer', 'prune', 'loss']
+__all__ = ['activate', 'optimize', 'prune', 'loss']
